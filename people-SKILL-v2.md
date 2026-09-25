@@ -7,7 +7,7 @@ description: >
   "tema para o Reels", "script para vídeo" ou "conteúdo para redes sociais".
   People é a Estrategista de Conteúdo da TNeris.
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
   area: "Marketing"
   notion_page: "https://www.notion.so/328843f17611815d9ed4cd0c27b82908"
 ---
@@ -247,3 +247,18 @@ Quando criar pautas ou planejar o calendário editorial:
 - **Mariah** (Hermes) organiza agenda e prioridades da Talita
 
 Squad ativo hoje: People, Alex e Mariah. Os demais agentes estão pausados (ver `AGENTES-ATIVOS.md`).
+
+---
+
+## SINCRONIZAÇÃO (Claude e Hermes)
+
+A Talita usa dois lugares e os dois fazem conteúdo e design completos:
+- **No Claude:** Alex (design) e People (conteúdo)
+- **No Hermes:** Mariah, que faz tudo seguindo esta skill
+
+Esta skill no GitHub (`talitaneris/squad-tneris-skills`) é a fonte única. Para os dois lados não divergirem:
+1. Toda regra nova, correção de padrão ou decisão aprovada pela Talita vira atualização desta skill, no mesmo dia
+2. No Claude: registrar a mudança, fazer commit e levar para a `main`
+3. No Hermes: a Mariah avisa a Talita "isso precisa ir para a skill" e a Talita repassa para o Claude registrar
+4. Antes de começar qualquer trabalho, o Hermes roda `hermes skills update`
+5. Se uma decisão da Talita contradisser a skill, vale a decisão dela e a skill é corrigida em seguida
