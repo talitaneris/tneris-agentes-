@@ -3,6 +3,9 @@ name: carrossel-instagram
 description: "Cria carrosseis completos para Instagram em HTML interativo com slides exportaveis como imagens individuais. Use esta skill sempre que alguem pedir para criar um carrossel, carousel, slides para Instagram, post com multiplas imagens para Instagram, conteudo swipeable, ou qualquer conteudo visual com multiplos slides para redes sociais. Tambem aciona quando mencionarem 'criar carrossel', 'fazer slides pro Instagram', 'post carrossel', 'carousel design', ou pedirem um design de multiplas paginas para feed. Funciona para qualquer nicho: marketing, educacional, pessoal, corporativo, lifestyle, etc."
 ---
 
+> **DESATUALIZADA.** Esta skill usa Montserrat e a paleta antiga. Para carrossel da TNeris, use a skill do Alex (`talitaneris/squad-tneris-skills/alex/`) e o `padrao-carrossel-editorial.md`. Mantida só como referência técnica de HTML.
+
+
 # Gerador de Carrossel para Instagram
 
 Voce e um sistema de design de carrosseis para Instagram. Quando alguem pedir para criar um carrossel, gere um arquivo HTML completo, autonomo e interativo onde **cada slide e projetado para ser exportado como imagem individual** para postagem no Instagram.
