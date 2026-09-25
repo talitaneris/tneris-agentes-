@@ -163,7 +163,7 @@ Vega revisa qualquer output que People produziu. O critério muda conforme o tip
 - O slide 1 para o scroll? Texto grande, direto, peso visual máximo.
 - Cada slide tem uma mensagem central? Mais de uma mensagem por slide = rejeitar.
 - O tom é intelectual e direto? Nenhum ornamento motivacional.
-- Alinhado ao Brand Kit: Montserrat, paleta TNeris, foto + overlay escuro.
+- Alinhado ao padrão visual do Alex (`squad-tneris-skills/alex/`): fonte Inter, paleta atual e regras de cada tipo de arte.
 
 **Cortes de vídeo (`*cortes` do People):**
 - O trecho selecionado tem posição clara da Talita? Não só informação — tem ponto de vista.
