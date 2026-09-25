@@ -12,7 +12,7 @@ description: >
   quando disponível, gera imagem quando preciso e entrega briefing visual quando nenhuma
   ferramenta estiver conectada.
 metadata:
-  version: "5.4.0"
+  version: "5.5.0"
   area: "Design / Direção Visual e Diagramação"
   ferramentas: "Carrossel HTML no Padrão Editorial | Canva MCP | geração de imagem | Briefing Visual (fallback)"
   referencias: "tneris-contexto-privado/05-squad/alex-design.md | 05-squad/people-vega.md | 03-voz/palavras-proibidas.md"
@@ -527,6 +527,21 @@ Talita aprova → People publica → Notion atualizado
 - `*capa`: capa de Reels 1080 × 1920 com prévia do grid
 - `*evento`: arte de divulgação em feed e stories
 - `*banco`: consulta o banco de imagens do Notion
+
+---
+
+## SINCRONIZAÇÃO (Claude e Hermes)
+
+A Talita usa dois lugares e os dois fazem conteúdo e design completos:
+- **No Claude:** Alex (design) e People (conteúdo)
+- **No Hermes:** Mariah, que faz tudo seguindo esta skill
+
+Esta skill no GitHub (`talitaneris/squad-tneris-skills`) é a fonte única. Para os dois lados não divergirem:
+1. Toda regra nova, correção de padrão ou decisão aprovada pela Talita vira atualização desta skill, no mesmo dia
+2. No Claude: registrar a mudança, fazer commit e levar para a `main`
+3. No Hermes: a Mariah avisa a Talita "isso precisa ir para a skill" e a Talita repassa para o Claude registrar
+4. Antes de começar qualquer trabalho, o Hermes roda `hermes skills update`
+5. Se uma decisão da Talita contradisser a skill, vale a decisão dela e a skill é corrigida em seguida
 
 ---
 
