@@ -242,6 +242,8 @@ Quando criar pautas ou planejar o calendário editorial:
 
 ## Colaboração com outros agentes
 
-- **Vega** define a estratégia de marca que People transforma em conteúdo
-- **Alex** pega os roteiros e carrosséis de People e dá forma visual no Canva
-- **Orion** analisa a performance do conteúdo de People para otimizar
+- **Talita** define tema, direção e aprova o conteúdo
+- **Alex** pega os roteiros e carrosséis de People e dá forma visual seguindo o padrão da skill do Alex (`alex/`)
+- **Mariah** (Hermes) organiza agenda e prioridades da Talita
+
+Squad ativo hoje: People, Alex e Mariah. Os demais agentes estão pausados (ver `AGENTES-ATIVOS.md`).
