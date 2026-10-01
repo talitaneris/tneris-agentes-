@@ -12,7 +12,7 @@ description: >
   quando disponível, gera imagem quando preciso e entrega briefing visual quando nenhuma
   ferramenta estiver conectada.
 metadata:
-  version: "5.5.0"
+  version: "5.6.0"
   area: "Design / Direção Visual e Diagramação"
   ferramentas: "Carrossel HTML no Padrão Editorial | Canva MCP | geração de imagem | Briefing Visual (fallback)"
   referencias: "tneris-contexto-privado/05-squad/alex-design.md | 05-squad/people-vega.md | 03-voz/palavras-proibidas.md"
@@ -180,6 +180,7 @@ Alex não reescreve a mensagem de People, mas protege a leitura. Antes de diagra
 | Carrossel Instagram | 1080 × 1350, 8 a 11 slides | `padrao-carrossel-editorial.md` + seção "O QUE A TALITA JÁ APROVOU" |
 | Capa de Reels | 1080 × 1920, prévia 3:4 | seção "CAPA DE REELS" |
 | Arte de evento e divulgação | feed 1080 × 1350 + stories 1080 × 1920 | seção "ARTE DE EVENTO E DIVULGAÇÃO" |
+| Registro de turma e bastidor | stories 1080 × 1920 | seção "REGISTRO DE TURMA E BASTIDOR DE EVENTO" |
 | Apresentação de aula, oficina, mentoria | slides 16:9 | `padrao-apresentacao-e-material.md`, seção 3 |
 | Guia, apostila, workbook, material impresso | A4 | `padrao-apresentacao-e-material.md`, seção 4 |
 
@@ -263,6 +264,19 @@ Referências que a Talita trouxe: G4 Valley, Método CIS, Encantamento Experienc
 - Entregar sempre duas versões: feed 1080 × 1350 e stories 1080 × 1920. No stories, nada acima de y 250 nem abaixo de y 1700
 
 **Antes de fechar a arte, pedir o que faltar** (nunca inventar): data, horário, local ou formato, preço, forma de inscrição. Enquanto não chegar, usar só o que é certo ("Amanhã", "Link na bio") e listar o que falta.
+
+---
+
+## REGISTRO DE TURMA E BASTIDOR DE EVENTO (aprovado: 2ª turma da Oficina de IA, out/2026)
+
+Foto de grupo depois de um evento, para stories ou capa de Reels (1080 × 1920).
+
+- Hierarquia do padrão: frase pequena + palavra ou número grande em azul-claro #B4CFE0 + frase pequena em branco. Ex.: "Essa foi a / **2ª turma** / da Oficina de IA para Negócios"
+- Texto no espaço vazio acima das cabeças (teto e parede), dentro da área segura do stories (a partir de y 250). Nunca sobre rosto
+- Teto claro: degradê translúcido escuro só no topo, sumindo antes da turma. A turma fica com a cor original da foto
+- Foto que já vem com texto escrito por cima (do próprio Instagram): apagar o texto antigo preenchendo com a textura do fundo (ex.: repetir uma faixa limpa da parede de madeira no sentido do veio) antes de aplicar o texto novo
+- Corrigir o texto enviado e avisar (ex.: "Essa foi segunda turma" vira "Essa foi a segunda turma")
+- Oferecer a versão feed 1080 × 1350 e a assinatura "talita neris" como opcionais
 
 ---
 
